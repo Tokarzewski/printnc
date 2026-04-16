@@ -1,0 +1,149 @@
+Model:,20260415 PrintNC V4 Metalcutter V4.0.36 Beta4
+Cutting Area:,1000 mm x 1000 mm
+
+Position,Name,Description,Quantity,Length (mm),Dimensions (mm)
+1,M4x8 Pan Head,,4,,
+2,M4x12,,22,,
+3,M4x16,,28,,
+4,M5x12,,4,,
+5,M5x20,,112,,
+6,M6x12,,142,,
+7,M6x20,,66,,
+8,M6x30,,32,,
+9,M6x50,,24,,
+10,M8x8 Grub,,4,,
+11,M8x45,,3,,
+12,X M5 Threaded Rod,,6,185,
+13,Y M5 Threaded Rod,,12,185,
+14,M5 Nut,,54,,
+15,X HGR20 Rail,,2,1175,
+16,Y HGR20 Rail,,1,1175,
+17,Y2 HGR20 Rail,,1,1175,
+18,2Z HGR15 Rail,,2,300,
+19,HGH15CA slider block,,4,,
+20,HGW20CC slider block,,8,,
+21,Y 1610 Ballscrew,,1,1275,
+22,X 1610 Ballscrew,,1,1275,
+23,Y2 1610 Ballscrew,,1,1275,
+24,Z 1204 Ballscrew,,1,300,
+25,80mm Spindle Clamp,,1,,
+26,Steel: X Frame Tubing,,4,1360,1360 x 80 x 80
+27,Steel: Y Frame Tubing,,2,1325,1325 x 80 x 80
+28,Steel: Y Roller Tubing,,2,150,150 x 80 x 80
+29,Steel: Y Roller Brace,,2,,80 x 75 x 50
+30,Steel: X Gantry Tubing,,1,1360,1360 x 80 x 80
+31,Steel: X Roller Tubing,,1,150,150 x 80 x 80
+32,Steel: X Roller Angle,,1,150,150 x 100 x 50
+
+
+
+Unrecognized Parts (only relevant if Fusion model changes and can usually be ignored)
+Position,Name,Description,Quantity,Length (mm),Dimensions (mm),Path
+1,Body1,,1,,1225 x 1200 x 20,PrintNC Structure:1->Wasteboard:1
+2,Body1,,1,,1005 x 1005 x 125,PrintNC Structure:1->Cutting Area:1
+3,Body1,,1,,125 x 80 x 8,PrintNC Structure:1->XGantry:1->XRoller Top:1->XRollerShim:1
+4,Body2,,1,,10.39 x 9 x 9,Hardware:1->YAxis Hardware:1->Y HGW20CC:1->M6 Flush Grease Fitting (2):1
+5,Body11,,1,,10.39 x 9 x 9,Hardware:1->YAxis Hardware:1->Y HGW20CC:1->M6 Flush Grease Fitting (2):1
+6,Body1,,1,,89 x 60 x 60,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y HM12-57:1
+7,Body3,,1,,21.64 x 21.51 x 8,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y HM12-57:1
+8,Body4,,1,,34 x 34 x 6,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y HM12-57:1
+9,Body3 (1),,1,,31.5 x 28 x 14.8,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y HM12-57:1
+10,Body1,,1,,26.5 x 25.98 x 25,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y D30L40 8-10mm Coupler:1
+11,Body2,,1,,25.38 x 25.38 x 12,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y D30L40 8-10mm Coupler:1
+12,Body3,,1,,26.5 x 25.98 x 25,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y D30L40 8-10mm Coupler:1
+13,Body4,,1,,19.5 x 7 x 6.99,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y D30L40 8-10mm Coupler:1
+14,Body5,,1,,19.5 x 7 x 6.99,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y D30L40 8-10mm Coupler:1
+15,Body1,,1,,60 x 43 x 20,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y BF12:1
+16,Body1,,1,,44 x 40 x 39.85,Hardware:1->YAxis Hardware:1->Y 1610 Ballscrew Set:1->Y SFU1610 Nut:1
+17,Body1,,1,,25.9 x 6.67 x 0,Hardware:1->YAxis Hardware:1->Y NEMA23 Stepper:1
+18,Body2,,1,,56.4 x 56.4 x 12.1,Hardware:1->YAxis Hardware:1->Y NEMA23 Stepper:1
+19,Body3,,1,,78 x 56.4 x 56.4,Hardware:1->YAxis Hardware:1->Y NEMA23 Stepper:1
+20,Body4,,1,,56.4 x 56.4 x 11.5,Hardware:1->YAxis Hardware:1->Y NEMA23 Stepper:1
+21,Body5,,1,,11.5 x 7.5 x 6.63,Hardware:1->YAxis Hardware:1->Y NEMA23 Stepper:1
+22,Body1,,1,,15.01 x 13 x 4,Hardware:1->YAxis Hardware:1->Y M8 Inductive Sensor:1
+23,Body2,,1,,15.01 x 13 x 4,Hardware:1->YAxis Hardware:1->Y M8 Inductive Sensor:1
+24,Body3,,1,,55 x 7.43 x 3,Hardware:1->YAxis Hardware:1->Y M8 Inductive Sensor:1
+25,Body1,,1,,89 x 60 x 60,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X HM12-57:1
+26,Body3,,1,,21.64 x 21.51 x 8,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X HM12-57:1
+27,Body4,,1,,34 x 34 x 6,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X HM12-57:1
+28,Body3 (1),,1,,31.5 x 28 x 14.8,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X HM12-57:1
+29,Body1,,1,,44 x 40 x 39.85,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X SFU1610 Nut:1
+30,Body1,,1,,60 x 43 x 20,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X BF12:1
+31,Body1,,1,,26.5 x 25.98 x 25,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X D30L40 8-10mm Coupler:1
+32,Body2,,1,,25.38 x 25.38 x 12,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X D30L40 8-10mm Coupler:1
+33,Body3,,1,,26.5 x 25.98 x 25,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X D30L40 8-10mm Coupler:1
+34,Body4,,1,,19.5 x 7 x 6.99,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X D30L40 8-10mm Coupler:1
+35,Body5,,1,,19.5 x 7 x 6.99,Hardware:1->XAxis Hardware:1->X 1610 Ballscrew Set:1->X D30L40 8-10mm Coupler:1
+36,Body1,,1,,25.9 x 6.67 x 0,Hardware:1->XAxis Hardware:1->X NEMA23 Stepper:1
+37,Body2,,1,,56.4 x 56.4 x 12.1,Hardware:1->XAxis Hardware:1->X NEMA23 Stepper:1
+38,Body3,,1,,78 x 56.4 x 56.4,Hardware:1->XAxis Hardware:1->X NEMA23 Stepper:1
+39,Body4,,1,,56.4 x 56.4 x 11.5,Hardware:1->XAxis Hardware:1->X NEMA23 Stepper:1
+40,Body5,,1,,11.5 x 7.5 x 6.63,Hardware:1->XAxis Hardware:1->X NEMA23 Stepper:1
+41,Body2,,1,,10.39 x 9 x 9,Hardware:1->XAxis Hardware:1->X HGW20CC:1->M6 Flush Grease Fitting:1
+42,Body1,,1,,10.39 x 9 x 9,Hardware:1->XAxis Hardware:1->X HGW20CC(Mirror):1->M6 Flush Grease Fitting(Mirror):1
+43,Body1,,1,,15.01 x 13 x 4,Hardware:1->XAxis Hardware:1->X M8 Inductive Sensor:1
+44,Body2,,1,,15.01 x 13 x 4,Hardware:1->XAxis Hardware:1->X M8 Inductive Sensor:1
+45,Body3,,1,,55 x 7.43 x 3,Hardware:1->XAxis Hardware:1->X M8 Inductive Sensor:1
+46,Body1,,1,,10.39 x 9 x 9,Hardware:1->Y2Axis Hardware:1->Y2 HGW20CC:1->M6 Flush Grease Fitting (2)(Mirror):1
+47,Body10,,1,,10.39 x 9 x 9,Hardware:1->Y2Axis Hardware:1->Y2 HGW20CC:1->M6 Flush Grease Fitting (2)(Mirror):1
+48,Body1,,1,,25.9 x 6.67 x 0,Hardware:1->Y2Axis Hardware:1->Y2 NEMA23 Stepper:1
+49,Body2,,1,,56.4 x 56.4 x 12.1,Hardware:1->Y2Axis Hardware:1->Y2 NEMA23 Stepper:1
+50,Body3,,1,,78 x 56.4 x 56.4,Hardware:1->Y2Axis Hardware:1->Y2 NEMA23 Stepper:1
+51,Body4,,1,,56.4 x 56.4 x 11.5,Hardware:1->Y2Axis Hardware:1->Y2 NEMA23 Stepper:1
+52,Body5,,1,,11.5 x 7.5 x 6.63,Hardware:1->Y2Axis Hardware:1->Y2 NEMA23 Stepper:1
+53,Body1,,1,,89 x 60 x 60,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 HM12-57:1
+54,Body3 (1),,1,,21.64 x 21.51 x 8,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 HM12-57:1
+55,Body4 (1),,1,,34 x 34 x 6,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 HM12-57:1
+56,Body3 (1) (1),,1,,31.5 x 28 x 14.8,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 HM12-57:1
+57,Body1,,1,,60 x 43 x 20,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 BF12:1
+58,Body1,,1,,44 x 40 x 39.85,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 SFU1610 Nut:1
+59,Body1,,1,,26.5 x 25.98 x 25,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 D30L40 8-10mm Coupler:1
+60,Body2,,1,,25.38 x 25.38 x 12,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 D30L40 8-10mm Coupler:1
+61,Body3,,1,,26.5 x 25.98 x 25,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 D30L40 8-10mm Coupler:1
+62,Body4,,1,,19.5 x 7 x 6.99,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 D30L40 8-10mm Coupler:1
+63,Body5,,1,,19.5 x 7 x 6.99,Hardware:1->Y2Axis Hardware:1->Y2 1610 Ballscrew Set:1->Y2 D30L40 8-10mm Coupler:1
+64,Body1,,1,,15.01 x 13 x 4,Hardware:1->Y2Axis Hardware:1->Y2 M8 Inductive Sensor:1
+65,Body2,,1,,15.01 x 13 x 4,Hardware:1->Y2Axis Hardware:1->Y2 M8 Inductive Sensor:1
+66,Body3,,1,,55 x 7.43 x 3,Hardware:1->Y2Axis Hardware:1->Y2 M8 Inductive Sensor:1
+67,Body1,,1,,21.65 x 20.28 x 18.71,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z D25L30 8-8mm Coupler:1
+68,Body2,,1,,21.65 x 20.28 x 18.71,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z D25L30 8-8mm Coupler:1
+69,Body3,,1,,21.24 x 21.24 x 11.1,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z D25L30 8-8mm Coupler:1
+70,Body4,,1,,17 x 5.5 x 2.89,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z D25L30 8-8mm Coupler:1
+71,Body5,,1,,17 x 5.5 x 2.89,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z D25L30 8-8mm Coupler:1
+72,Body1,,1,,89 x 60 x 58.5,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z HM10-57:1
+73,Body2,,1,,32.6 x 25.75 x 22.1,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z HM10-57:1
+74,Body3,,1,,17 x 17 x 8,Hardware:1->ZAxis Hardware:1->Z 1204 Ballscrew Set:1->Z HM10-57:1
+75,Body1,,1,,25.9 x 6.67 x 0,Hardware:1->ZAxis Hardware:1->Z NEMA23 Stepper :1
+76,Body2,,1,,56.4 x 56.4 x 12.1,Hardware:1->ZAxis Hardware:1->Z NEMA23 Stepper :1
+77,Body3,,1,,78 x 56.4 x 56.4,Hardware:1->ZAxis Hardware:1->Z NEMA23 Stepper :1
+78,Body4,,1,,56.4 x 56.4 x 11.5,Hardware:1->ZAxis Hardware:1->Z NEMA23 Stepper :1
+79,Body5,,1,,11.5 x 7.5 x 6.63,Hardware:1->ZAxis Hardware:1->Z NEMA23 Stepper :1
+80,Body1,,1,,15.01 x 13 x 4,Hardware:1->ZAxis Hardware:1->Z M8 Inductive Sensor:1
+81,Body2,,1,,15.01 x 13 x 4,Hardware:1->ZAxis Hardware:1->Z M8 Inductive Sensor:1
+82,Body3,,1,,55 x 7.43 x 3,Hardware:1->ZAxis Hardware:1->Z M8 Inductive Sensor:1
+83,Body1,,1,,300 x 125 x 12,Zaxis Dual Carriage HGH15CA:1->2Z 300mm Z Plate:1
+84,Body1,,1,,2.8 x 1.5 x 0,Zaxis Dual Carriage HGH15CA:1->2Z Fasteners:1->M6 Washer:1
+85,Body2,,1,,2.8 x 1.5 x 0,Zaxis Dual Carriage HGH15CA:1->2Z Fasteners:1->M6 Washer:1
+86,Body3,,1,,2.8 x 1.5 x 0,Zaxis Dual Carriage HGH15CA:1->2Z Fasteners:1->M6 Washer:1
+87,Body4,,1,,2.8 x 1.5 x 0,Zaxis Dual Carriage HGH15CA:1->2Z Fasteners:1->M6 Washer:1
+88,Body1,,1,,100 x 25 x 12,Zaxis Dual Carriage HGH15CA:1->2Z ZPlate Tram Bar:1
+89,Body3,,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+90,Body2,,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+91,Body2 (1),,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+92,Body2 (2),,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+93,Body2 (3),,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+94,Body3 (1),,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+95,Body3 (2),,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+96,Body3 (3),,1,,32.4 x 19.53 x 2.7,Zaxis Dual Carriage HGH15CA:1->2Z HGH15CA:1
+97,Body1,,1,,29.1 x 12 x 11,Zaxis Dual Carriage HGH15CA:1->2Z Spindle Clamp Tram Blocks:1
+98,Body2,,1,,29.1 x 12 x 11,Zaxis Dual Carriage HGH15CA:1->2Z Spindle Clamp Tram Blocks:1
+99,Body1,,1,,145 x 125 x 12,Zaxis Dual Carriage HGH15CA:1->2Z Tram Plate:1
+100,Body1,,1,,35.87 x 35 x 30,Zaxis Dual Carriage HGH15CA:1->2Z SFU1204 Ballscrew Nut:1
+101,Body1,,1,,50 x 36 x 30,Zaxis Dual Carriage HGH15CA:1->2Z Ballscrew Nut Block:1
+102,Body1,,1,,259.73 x 79.9 x 54.8,Zaxis Dual Carriage HGH15CA:1->80mm 2.2kw Spindle:1
+103,Body1,,1,,300 x 125 x 12,Zaxis Dual Carriage HGH15CA:1->2Z Temp Plywood Plates:1->2Z Plywood Z Plate:1
+104,Body1,,1,,145 x 91 x 12,Zaxis Dual Carriage HGH15CA:1->2Z Temp Plywood Plates:1->2Z Plywood Tram Plate:1
+105,Body1,,1,,120 x 15 x 9,Zaxis Dual Carriage HGH15CA:1->2Z Temp Plywood Plates:1->2Z Printed Rail Riser 4x:1
+106,Body2,,1,,120 x 15 x 9,Zaxis Dual Carriage HGH15CA:1->2Z Temp Plywood Plates:1->2Z Printed Rail Riser 4x:1
+107,Body3,,1,,120 x 15 x 9,Zaxis Dual Carriage HGH15CA:1->2Z Temp Plywood Plates:1->2Z Printed Rail Riser 4x:1
+108,Body4,,1,,120 x 15 x 9,Zaxis Dual Carriage HGH15CA:1->2Z Temp Plywood Plates:1->2Z Printed Rail Riser 4x:1
