@@ -42,13 +42,27 @@ Lista materiałowa powstaje w trzech krokach:
 | `sekcje_montazowe.py` | Dzieli BOM na ~10 sekcji montażowych (#4) |
 | `validate_photos.py` | Sprawdza spójność folderu zdjęć z BOM (#1) |
 | `usun_tlo.py` | Wsadowe usuwanie tła ze zdjęć przez `rembg` (#5) |
+| `bom_ze_zdjeciami.py` | Buduje BOM z osadzonymi miniaturami zdjęć (dopasowanie po ID) |
 
 ### Wymagania
 
 ```
 py -m pip install openpyxl                   # loader BOM + skrypty pomocnicze
-py -m pip install rembg pillow onnxruntime   # tylko dla usun_tlo.py
+py -m pip install pillow                     # dla bom_ze_zdjeciami.py (osadzanie obrazów)
+py -m pip install rembg onnxruntime          # dodatkowo dla usun_tlo.py
 ```
+
+> **Uwaga o interpreterze:** używaj zwykłego CPythona (np. `py -3.14`), **nie** wersji
+> free-threaded `3.14t` — w niej rozszerzenie C Pillow (`_imaging`) się nie ładuje.
+> Sprawdź dostępne: `py -0p`.
+
+### BOM ze zdjęciami
+
+1. Wrzuć zdjęcia elementów do `BOM/zdjecia/`, nazwane od 3-cyfrowego ID
+   (patrz `BOM/generated/01_zdjecia_nazewnictwo.csv`), np. `006 - Śruba M6x12.jpg`.
+2. (opcjonalnie) usuń tło: `py -3.14 skrypty/usun_tlo.py BOM/zdjecia`
+3. Zbuduj BOM z miniaturami: `py -3.14 skrypty/bom_ze_zdjeciami.py BOM/zdjecia`
+   → wynik: `BOM/generated/BOM_ze_zdjeciami.xlsx`
 
 Skrypty pomocnicze uruchamiaj z katalogu głównego repo, np.:
 

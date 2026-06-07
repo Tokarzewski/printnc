@@ -1,0 +1,67 @@
+﻿ID,Nazwa,Render,Wariant,Pewność,Plik
+1,Śruba M4x8 łeb walcowy,M4x8 Pan Head,detail,alias,001.png
+2,Śruba M4x12,M4x12 2Z Carriages,detail,alias,002.png
+3,Śruba M4x16,M4x16,detail,alias,003.png
+4,Śruba M5x12,M5x12 Ballscrew Nut Block,detail,alias,004.png
+5,Śruba M5x20,M5x20,detail,alias,005.png
+6,Śruba M6x12,M6x12,detail,alias,006.png
+7,Śruba M6x20,M6x20,detail,alias,007.png
+8,Śruba M6x30,M6x30,detail,alias,008.png
+9,Śruba M6x50,M6x50,detail,alias,009.png
+10,Wkręt dociskowy M8x8,M8x8 Grub Screw,detail,alias,010.png
+11,Śruba M8x45,,,BRAK,
+12,Pręt gwintowany M5 (oś X),M5 Threaded Rod and Nuts,set,alias,012.png
+13,Pręt gwintowany M5 (oś Y),M5 Threaded Rod and Nuts,set,alias,013.png
+14,Nakrętka M5,M5 Threaded Rod and Nuts,detail,alias,014.png
+15,Szyna HGR20 (oś X i Y) + Wózek liniowy HGW20CC,X HGR20,set,alias,015.png
+18,Szyna HGR15 (oś 2Z) + Wózek liniowy HGH15CA,2Z HGR15,set,alias,018.png
+21,Śruba kulowa 1610 (oś Y),Y 1610 Ballscrew,set,alias,021.png
+22,Śruba kulowa 1610 (oś X),X 1610 Ballscrew,set,alias,022.png
+23,Śruba kulowa 1610 (oś Y2),Y2 1610 Ballscrew,set,alias,023.png
+24,Śruba kulowa 1204 (oś Z),Z 1204 Ballscrew,set,alias,024.png
+25,Uchwyt wrzeciona 80mm,Extruded 80mm Spindle Clamp,set,alias,025.png
+26,Profil stalowy: rama oś X,XFrame,set,alias,026.png
+27,Profil stalowy: rama oś Y,,,BRAK,
+28,Profil stalowy: wózek oś Y,YRoller,set,alias,028.png
+29,Profil stalowy: usztywnienie wózka Y,YRollerBrace,set,alias,029.png
+30,Profil stalowy: belka bramowa X,,,BRAK,
+31,Profil stalowy: wózek oś X,,,BRAK,
+32,Profil aluminiowy: kątownik wózka X,,,BRAK,
+33,Płyta drewniana,Wasteboard,set,alias,033.png
+35,Podkładka dystansowa wózka X,XRollerShim,set,alias,035.png
+36,Smarowniczka płaska M6 (2),M6 Flush Grease Fitting,detail,alias,036.png
+37,Mocowanie silnika HM12-57 (Y),Y HM12-57,set,auto,037.png
+38,Sprzęgło D30L40 8-10mm (Y),Y D30L40 8-10mm Coupler,set,auto,038.png
+39,Podpora BF12 (Y),Y BF12,set,auto,039.png
+40,Nakrętka kulowa SFU1610 (Y),Y SFU1610 Nut,set,auto,040.png
+41,Silnik krokowy NEMA23 (Y),Y NEMA23 Stepper,set,auto,041.png
+42,Czujnik indukcyjny M8 (Y),Y M8 Inductive Sensor,set,auto,042.png
+43,Mocowanie silnika HM12-57 (X),X HM12-57,set,auto,043.png
+44,Nakrętka kulowa SFU1610 (X),X SFU1610 Nut,set,auto,044.png
+45,Podpora BF12 (X),X BF12,set,auto,045.png
+46,Sprzęgło D30L40 8-10mm (X),X D30L40 8-10mm Coupler,set,auto,046.png
+47,Silnik krokowy NEMA23 (X),X NEMA23 Stepper,set,auto,047.png
+48,Smarowniczka płaska M6,M6 Flush Grease Fitting,set,auto,048.png
+49,Smarowniczka płaska M6 (mirror),M6 Flush Grease Fitting,detail,alias,049.png
+50,Czujnik indukcyjny M8 (X),X M8 Inductive Sensor,set,auto,050.png
+51,Smarowniczka płaska M6 (2)(mirror),M6 Flush Grease Fitting,detail,alias,051.png
+52,Silnik krokowy NEMA23 (Y2),Y2 NEMA23 Stepper,set,auto,052.png
+53,Mocowanie silnika HM12-57 (Y2),Y2 HM12-57,set,auto,053.png
+54,Podpora BF12 (Y2),Y2 BF12,set,auto,054.png
+55,Nakrętka kulowa SFU1610 (Y2),Y2 SFU1610 Nut,set,auto,055.png
+56,Sprzęgło D30L40 8-10mm (Y2),Y2 D30L40 8-10mm Coupler,set,auto,056.png
+57,Czujnik indukcyjny M8 (Y2),Y2 M8 Inductive Sensor,set,auto,057.png
+58,Sprzęgło D25L30 8-8mm (Z),Z D25L30 8-8mm Coupler,set,auto,058.png
+59,Mocowanie silnika HM10-57 (Z),Z HM10-57,set,auto,059.png
+60,Silnik krokowy NEMA23 (Z),Z NEMA23 Stepper,set,auto,060.png
+61,Czujnik indukcyjny M8 (Z),Z M8 Inductive Sensor,set,auto,061.png
+62,2Z płyta Z 300mm Aluminium,2Z 300mm Z Plate,set,auto,062.png
+63,Podkładka M6,M6 Washer,set,auto,063.png
+64,2Z belka trammingu płyty  Aluminium,2Z ZPlate Tram Bar,set,auto,064.png
+65,2Z wózek HGH15CA,2Z HGH15CA,set,auto,065.png
+66,2Z kostki trammingu uchwytu wrzeciona,2Z Spindle Clamp Tram Blocks,set,auto,066.png
+67,2Z płyta trammingu  Aluminium,2Z Tram Plate,set,auto,067.png
+68,2Z nakrętka kulowa SFU1204,2Z SFU1204 Ballscrew Nut,set,auto,068.png
+69,2Z blok nakrętki śruby kulowej,2Z Ballscrew Nut Block,set,auto,069.png
+70,Wrzeciono 2.2kW 80mm,80mm 2.2kw Spindle,set,auto,070.png
+73,2Z drukowany wspornik szyny 4x,2Z Printed Rail Riser 4x,set,auto,073.png
