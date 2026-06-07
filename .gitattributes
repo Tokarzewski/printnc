@@ -1,2 +1,14 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# ---- Git LFS: duże pliki binarne (CAD / instalatory / PDF) ----
+# Dotyczy nowych commitów. Migracja istniejącej historii: patrz Issue #9.
+*.f3d  filter=lfs diff=lfs merge=lfs -text
+*.f3z  filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp  filter=lfs diff=lfs merge=lfs -text
+*.dxf  filter=lfs diff=lfs merge=lfs -text
+*.msi  filter=lfs diff=lfs merge=lfs -text
+*.pdf  filter=lfs diff=lfs merge=lfs -text
+# Uwaga: pliki Excel (*.xls/*.xlsx) i CSV celowo zostają w zwykłym Git
+# (małe, często edytowane ręcznie) — nie wrzucamy ich do LFS.

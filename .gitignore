@@ -179,3 +179,23 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# ---- PrintNC: pliki specyficzne dla projektu ----
+
+# Pliki tymczasowe skryptów BOM
+BOM/_*.xlsx
+BOM/_*.pkl
+
+# Kopie zapasowe / autosave Fusion 360
+*.f3d.bak
+*.bak
+*.f3z
+
+# Eksporty robocze — odkomentuj, jeśli nie chcesz wersjonować surowych CSV z Fusion:
+# *.csv
+
+# System / edytory
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/*.log

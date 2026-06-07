@@ -1,0 +1,67 @@
+﻿ID,Nazwa,Ilość,Rodzaj zakupu,Link
+1,Śruba M4x8 łeb walcowy,4,Allegro,https://allegro.pl/kategoria/materialy-i-akcesoria-sruby-nakretki-podkladki-121600?string=%C5%9Bruba+m4x8
+2,Śruba M4x12,22,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m4x12+din7985
+3,Śruba M4x16,28,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m4x16+din7985
+4,Śruba M5x12,4,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m5x12+din7985
+5,Śruba M5x20,112,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m5x20+din7985
+6,Śruba M6x12,142,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m6x12+din7985
+7,Śruba M6x20,66,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m6x20+din7985
+8,Śruba M6x30,32,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m6x30+din7985
+9,Śruba M6x50,24,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m6x50+din7985
+10,Wkręt dociskowy M8x8,4,Allegro,https://allegro.pl/listing?string=wkr%C4%99t+dociskowy+m8x8+imbus
+11,Śruba M8x45,3,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+m8x45+din933
+12,Pręt gwintowany M5 (oś X),6,Allegro,https://allegro.pl/listing?string=pr%C4%99t+gwintowany+m5
+13,Pręt gwintowany M5 (oś Y),12,Allegro,https://allegro.pl/listing?string=pr%C4%99t+gwintowany+m5
+14,Nakrętka M5,54,Allegro,https://allegro.pl/listing?string=nakr%C4%99tka+m5+din934
+15,Szyna HGR20 (oś X i Y) + Wózek liniowy HGW20CC,4,Inne strony (AliExpress),https://pl.aliexpress.com/item/1005009153132576.html
+18,Szyna HGR15 (oś 2Z) + Wózek liniowy HGH15CA,2,Inne strony (AliExpress),https://pl.aliexpress.com/item/1005009153132576.html
+21,Śruba kulowa 1610 (oś Y),1,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+kulowa+sfu1610+bk12+bf12
+22,Śruba kulowa 1610 (oś X),1,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+kulowa+sfu1610+bk12+bf12
+23,Śruba kulowa 1610 (oś Y2),1,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+kulowa+sfu1610+bk12+bf12
+24,Śruba kulowa 1204 (oś Z),1,Allegro,https://allegro.pl/listing?string=%C5%9Bruba+kulowa+sfu1204
+25,Uchwyt wrzeciona 80mm,1,Allegro,https://allegro.pl/listing?string=uchwyt+wrzeciona+80mm
+26,Profil stalowy: rama oś X,4,Profil stalowy (laser/cięcie),
+27,Profil stalowy: rama oś Y,2,Profil stalowy (laser/cięcie),
+28,Profil stalowy: wózek oś Y,2,Profil stalowy (laser/cięcie),
+29,Profil stalowy: usztywnienie wózka Y,2,Profil stalowy (laser/cięcie),
+30,Profil stalowy: belka bramowa X,1,Profil stalowy (laser/cięcie),
+31,Profil stalowy: wózek oś X,1,Profil stalowy (laser/cięcie),
+32,Profil aluminiowy: kątownik wózka X,1,Frezowane Alu,
+33,Płyta drewniana,1,Allegro,https://allegro.pl/listing?string=p%C5%82yta+mdf+18mm
+35,Podkładka dystansowa wózka X,1,Frezowane Alu,https://allegro.pl/listing?string=p%C5%82yta+aluminiowa+6mm
+36,Smarowniczka płaska M6 (2),2,Allegro,https://allegro.pl/listing?string=smarowniczka+m6+p%C5%82aska
+37,Mocowanie silnika HM12-57 (Y),4,Allegro,https://allegro.pl/listing?string=mocowanie+silnika+nema23+hm12-57
+38,Sprzęgło D30L40 8-10mm (Y),5,Allegro,https://allegro.pl/listing?string=sprz%C4%99g%C5%82o+d30l40+8x10
+39,Podpora BF12 (Y),1,Allegro,https://allegro.pl/listing?string=podpora+bf12+%C5%9Bruby+kulowej
+40,Nakrętka kulowa SFU1610 (Y),1,Allegro,https://allegro.pl/listing?string=nakr%C4%99tka+sfu1610+kulowa
+41,Silnik krokowy NEMA23 (Y),5,Allegro,https://allegro.pl/listing?string=silnik+krokowy+nema23
+42,Czujnik indukcyjny M8 (Y),3,Allegro,https://allegro.pl/listing?string=czujnik+indukcyjny+m8+pnp+no
+43,Mocowanie silnika HM12-57 (X),4,Allegro,https://allegro.pl/listing?string=mocowanie+silnika+nema23+hm12-57
+44,Nakrętka kulowa SFU1610 (X),1,Allegro,https://allegro.pl/listing?string=nakr%C4%99tka+sfu1610+kulowa
+45,Podpora BF12 (X),1,Allegro,https://allegro.pl/listing?string=podpora+bf12+%C5%9Bruby+kulowej
+46,Sprzęgło D30L40 8-10mm (X),5,Allegro,https://allegro.pl/listing?string=sprz%C4%99g%C5%82o+d30l40+8x10
+47,Silnik krokowy NEMA23 (X),5,Allegro,https://allegro.pl/listing?string=silnik+krokowy+nema23
+48,Smarowniczka płaska M6,1,Do ustalenia,
+49,Smarowniczka płaska M6 (mirror),1,Do ustalenia,
+50,Czujnik indukcyjny M8 (X),3,Allegro,https://allegro.pl/listing?string=czujnik+indukcyjny+m8+pnp+no
+51,Smarowniczka płaska M6 (2)(mirror),2,Allegro,https://allegro.pl/listing?string=smarowniczka+m6+p%C5%82aska
+52,Silnik krokowy NEMA23 (Y2),5,Allegro,https://allegro.pl/listing?string=silnik+krokowy+nema23
+53,Mocowanie silnika HM12-57 (Y2),4,Allegro,https://allegro.pl/listing?string=mocowanie+silnika+nema23+hm12-57
+54,Podpora BF12 (Y2),1,Allegro,https://allegro.pl/listing?string=podpora+bf12+%C5%9Bruby+kulowej
+55,Nakrętka kulowa SFU1610 (Y2),1,Allegro,https://allegro.pl/listing?string=nakr%C4%99tka+sfu1610+kulowa
+56,Sprzęgło D30L40 8-10mm (Y2),5,Allegro,https://allegro.pl/listing?string=sprz%C4%99g%C5%82o+d30l40+8x10
+57,Czujnik indukcyjny M8 (Y2),3,Allegro,https://allegro.pl/listing?string=czujnik+indukcyjny+m8+pnp+no
+58,Sprzęgło D25L30 8-8mm (Z),5,Allegro,https://allegro.pl/listing?string=sprz%C4%99g%C5%82o+d25l30+8x8
+59,Mocowanie silnika HM10-57 (Z),3,Allegro,https://allegro.pl/listing?string=mocowanie+silnika+nema23+hm10-57
+60,Silnik krokowy NEMA23 (Z),5,Allegro,https://allegro.pl/listing?string=silnik+krokowy+nema23
+61,Czujnik indukcyjny M8 (Z),3,Allegro,https://allegro.pl/listing?string=czujnik+indukcyjny+m8+pnp+no
+62,2Z płyta Z 300mm Aluminium,1,Frezowane Alu,https://allegro.pl/listing?string=p%C5%82yta+aluminiowa+10mm
+63,Podkładka M6,4,Allegro,https://allegro.pl/listing?string=podk%C5%82adka+m6+din125
+64,2Z belka trammingu płyty  Aluminium,1,Frezowane Alu,https://allegro.pl/listing?string=p%C5%82yta+aluminiowa+10mm
+65,2Z wózek HGH15CA,8,Allegro,https://allegro.pl/listing?string=hgh15ca
+66,2Z kostki trammingu uchwytu wrzeciona,2,Frezowane Alu,https://allegro.pl/listing?string=p%C5%82yta+aluminiowa+10mm
+67,2Z płyta trammingu  Aluminium,1,Frezowane Alu,https://allegro.pl/listing?string=p%C5%82yta+aluminiowa+10mm
+68,2Z nakrętka kulowa SFU1204,1,Allegro,https://allegro.pl/listing?string=nakr%C4%99tka+sfu1204+kulowa
+69,2Z blok nakrętki śruby kulowej,1,Frezowane Alu,https://allegro.pl/listing?string=p%C5%82yta+aluminiowa+10mm
+70,Wrzeciono 2.2kW 80mm,1,Allegro,https://allegro.pl/listing?string=wrzeciono+2.2kw+80mm
+73,2Z drukowany wspornik szyny 4x,4,Druk 3D,https://allegro.pl/listing?string=filament+pla+1kg

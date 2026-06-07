@@ -340,6 +340,23 @@ def normalize_name(s):
     return re.sub(r'[^0-9a-z]', '', s.lower())
 
 
+def name_matches(body_name_norm, candidate_norm):
+    """
+    Return True if a normalized body name matches a normalized custom-part key.
+
+    Matching is prefix-based, but with a guard against numeric-size collisions:
+    if the candidate ends in a digit and the body name continues with another
+    digit, the size token is incomplete and must NOT match. This prevents e.g.
+    a body "M6x120" from being misclassified as the "m6x12" custom part.
+    """
+    if not candidate_norm or not body_name_norm.startswith(candidate_norm):
+        return False
+    next_char = body_name_norm[len(candidate_norm):len(candidate_norm) + 1]
+    if candidate_norm[-1].isdigit() and next_char.isdigit():
+        return False
+    return True
+
+
 def process_component(component, component_path, parts_list, custom_parts, unrecognized_parts):
     """
     Processes a component and its bodies, aggregating counts for custom parts.
@@ -364,7 +381,7 @@ def process_component(component, component_path, parts_list, custom_parts, unrec
             if isinstance(custom_value, dict):
                 candidates += custom_value.get("aliases", []) or []
             for cand in candidates:
-                if body_name_norm.startswith(normalize_name(cand)):
+                if name_matches(body_name_norm, normalize_name(cand)):
                     part_info = custom_value
                     break
             if part_info:
@@ -424,61 +441,64 @@ def export_parts_list_to_csv(parts_list, custom_parts, unrecognized_parts, model
     """
     app = adsk.core.Application.get()
     ui = app.userInterface
-    try:
-        file_dialog = ui.createFileDialog()
-        file_dialog.isMultiSelectEnabled = False
-        file_dialog.title = "Select Save Location for the Parts List CSV"
-        file_dialog.filter = "CSV Files (*.csv)"
-        file_dialog.filterIndex = 0
-        dialog_result = file_dialog.showSave()
 
-        if dialog_result == adsk.core.DialogResults.DialogOK:
-            file_path = file_dialog.filename
+    # NOTE: Intentionally NOT wrapping this in a try/except that returns the
+    # error string. Doing so made the caller treat a (truthy) error message as a
+    # successful file path and report "Parts list exported: <error>". Instead we
+    # let exceptions propagate to list_and_count_parts(), which reports them as
+    # errors, and use None solely to signal a user-cancelled save dialog.
+    file_dialog = ui.createFileDialog()
+    file_dialog.isMultiSelectEnabled = False
+    file_dialog.title = "Select Save Location for the Parts List CSV"
+    file_dialog.filter = "CSV Files (*.csv)"
+    file_dialog.filterIndex = 0
+    dialog_result = file_dialog.showSave()
 
-            with open(file_path, "w", newline="") as csvfile:
-                csv_writer = csv.writer(csvfile)
+    if dialog_result != adsk.core.DialogResults.DialogOK:
+        return None
 
-                # Header section
-                csv_writer.writerow(["Model:", model_name])
-                csv_writer.writerow(["Cutting Area:", cutting_area])
-                csv_writer.writerow([])
+    file_path = file_dialog.filename
 
-                # Write the header
-                csv_writer.writerow(["Position", "Name", "Description", "Quantity", "Length (mm)", "Dimensions (mm)"])
+    with open(file_path, "w", newline="", encoding="utf-8-sig") as csvfile:
+        csv_writer = csv.writer(csvfile)
 
-                position = 1
-                for custom_key in custom_parts.keys():
-                    for (name, description, length, dimensions), quantity in parts_list.items():
-                        if name == custom_parts[custom_key]["name"]:
-                            csv_writer.writerow(
-                                [
-                                    position,
-                                    name,
-                                    description,
-                                    quantity,
-                                    length if length is not None else "",
-                                    dimensions if dimensions is not None else "",
-                                ]
-                            )
-                            position += 1
+        # Header section
+        csv_writer.writerow(["Model:", model_name])
+        csv_writer.writerow(["Cutting Area:", cutting_area])
+        csv_writer.writerow([])
 
-                # Write unrecognized parts (if any)
-                if unrecognized_parts:
-                    csv_writer.writerow([])
-                    csv_writer.writerow([])
-                    csv_writer.writerow([])
-                    csv_writer.writerow(["Unrecognized Parts (only relevant if Fusion model changes and can usually be ignored)"])
-                    csv_writer.writerow(["Position", "Name", "Description", "Quantity", "Length (mm)", "Dimensions (mm)", "Path"])
-                    pos_unrec = 1
-                    for (name, dimensions, path), quantity in unrecognized_parts.items():
-                        csv_writer.writerow([pos_unrec, name, "", quantity, "", dimensions, path])
-                        pos_unrec += 1
+        # Write the header
+        csv_writer.writerow(["Position", "Name", "Description", "Quantity", "Length (mm)", "Dimensions (mm)"])
 
-            return file_path
-        else:
-            return None
-    except Exception as e:
-        return str(e)
+        position = 1
+        for custom_key in custom_parts.keys():
+            for (name, description, length, dimensions), quantity in parts_list.items():
+                if name == custom_parts[custom_key]["name"]:
+                    csv_writer.writerow(
+                        [
+                            position,
+                            name,
+                            description,
+                            quantity,
+                            length if length is not None else "",
+                            dimensions if dimensions is not None else "",
+                        ]
+                    )
+                    position += 1
+
+        # Write unrecognized parts (if any)
+        if unrecognized_parts:
+            csv_writer.writerow([])
+            csv_writer.writerow([])
+            csv_writer.writerow([])
+            csv_writer.writerow(["Unrecognized Parts (only relevant if Fusion model changes and can usually be ignored)"])
+            csv_writer.writerow(["Position", "Name", "Description", "Quantity", "Length (mm)", "Dimensions (mm)", "Path"])
+            pos_unrec = 1
+            for (name, dimensions, path), quantity in unrecognized_parts.items():
+                csv_writer.writerow([pos_unrec, name, "", quantity, "", dimensions, path])
+                pos_unrec += 1
+
+    return file_path
 
 
 def list_and_count_parts():

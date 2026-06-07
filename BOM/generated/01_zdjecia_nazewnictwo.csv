@@ -1,0 +1,67 @@
+﻿ID,Nazwa,Wymiary (mm),Nazwa pliku (krótka),Nazwa pliku (opisowa)
+1,Śruba M4x8 łeb walcowy,,001.jpg,001 - Śruba M4x8 łeb walcowy.jpg
+2,Śruba M4x12,,002.jpg,002 - Śruba M4x12.jpg
+3,Śruba M4x16,,003.jpg,003 - Śruba M4x16.jpg
+4,Śruba M5x12,,004.jpg,004 - Śruba M5x12.jpg
+5,Śruba M5x20,,005.jpg,005 - Śruba M5x20.jpg
+6,Śruba M6x12,,006.jpg,006 - Śruba M6x12.jpg
+7,Śruba M6x20,,007.jpg,007 - Śruba M6x20.jpg
+8,Śruba M6x30,,008.jpg,008 - Śruba M6x30.jpg
+9,Śruba M6x50,,009.jpg,009 - Śruba M6x50.jpg
+10,Wkręt dociskowy M8x8,,010.jpg,010 - Wkręt dociskowy M8x8.jpg
+11,Śruba M8x45,,011.jpg,011 - Śruba M8x45.jpg
+12,Pręt gwintowany M5 (oś X),1275mm,012.jpg,012 - Pręt gwintowany M5 (oś X).jpg
+13,Pręt gwintowany M5 (oś Y),,013.jpg,013 - Pręt gwintowany M5 (oś Y).jpg
+14,Nakrętka M5,,014.jpg,014 - Nakrętka M5.jpg
+15,Szyna HGR20 (oś X i Y) + Wózek liniowy HGW20CC,,015.jpg,015 - Szyna HGR20 (oś X i Y) + Wózek liniowy HGW20CC.jpg
+18,Szyna HGR15 (oś 2Z) + Wózek liniowy HGH15CA,,018.jpg,018 - Szyna HGR15 (oś 2Z) + Wózek liniowy HGH15CA.jpg
+21,Śruba kulowa 1610 (oś Y),,021.jpg,021 - Śruba kulowa 1610 (oś Y).jpg
+22,Śruba kulowa 1610 (oś X),,022.jpg,022 - Śruba kulowa 1610 (oś X).jpg
+23,Śruba kulowa 1610 (oś Y2),,023.jpg,023 - Śruba kulowa 1610 (oś Y2).jpg
+24,Śruba kulowa 1204 (oś Z),,024.jpg,024 - Śruba kulowa 1204 (oś Z).jpg
+25,Uchwyt wrzeciona 80mm,,025.jpg,025 - Uchwyt wrzeciona 80mm.jpg
+26,Profil stalowy: rama oś X,1360 x 80 x 80,026.jpg,026 - Profil stalowy rama oś X.jpg
+27,Profil stalowy: rama oś Y,1325 x 80 x 80,027.jpg,027 - Profil stalowy rama oś Y.jpg
+28,Profil stalowy: wózek oś Y,150 x 80 x 80,028.jpg,028 - Profil stalowy wózek oś Y.jpg
+29,Profil stalowy: usztywnienie wózka Y,80 x 75 x 50,029.jpg,029 - Profil stalowy usztywnienie wózka Y.jpg
+30,Profil stalowy: belka bramowa X,1360 x 80 x 80,030.jpg,030 - Profil stalowy belka bramowa X.jpg
+31,Profil stalowy: wózek oś X,150 x 80 x 80,031.jpg,031 - Profil stalowy wózek oś X.jpg
+32,Profil aluminiowy: kątownik wózka X,150 x 100 x 50,032.jpg,032 - Profil aluminiowy kątownik wózka X.jpg
+33,Płyta drewniana,1225 x 1200 x 20,033.jpg,033 - Płyta drewniana.jpg
+35,Podkładka dystansowa wózka X,125 x 80 x 8,035.jpg,035 - Podkładka dystansowa wózka X.jpg
+36,Smarowniczka płaska M6 (2),10.39 x 9 x 9,036.jpg,036 - Smarowniczka płaska M6 (2).jpg
+37,Mocowanie silnika HM12-57 (Y),89 x 60 x 60,037.jpg,037 - Mocowanie silnika HM12-57 (Y).jpg
+38,Sprzęgło D30L40 8-10mm (Y),26.5 x 25.98 x 25,038.jpg,038 - Sprzęgło D30L40 8-10mm (Y).jpg
+39,Podpora BF12 (Y),60 x 43 x 20,039.jpg,039 - Podpora BF12 (Y).jpg
+40,Nakrętka kulowa SFU1610 (Y),44 x 40 x 39.85,040.jpg,040 - Nakrętka kulowa SFU1610 (Y).jpg
+41,Silnik krokowy NEMA23 (Y),25.9 x 6.67 x 0,041.jpg,041 - Silnik krokowy NEMA23 (Y).jpg
+42,Czujnik indukcyjny M8 (Y),15.01 x 13 x 4,042.jpg,042 - Czujnik indukcyjny M8 (Y).jpg
+43,Mocowanie silnika HM12-57 (X),89 x 60 x 60,043.jpg,043 - Mocowanie silnika HM12-57 (X).jpg
+44,Nakrętka kulowa SFU1610 (X),44 x 40 x 39.85,044.jpg,044 - Nakrętka kulowa SFU1610 (X).jpg
+45,Podpora BF12 (X),60 x 43 x 20,045.jpg,045 - Podpora BF12 (X).jpg
+46,Sprzęgło D30L40 8-10mm (X),26.5 x 25.98 x 25,046.jpg,046 - Sprzęgło D30L40 8-10mm (X).jpg
+47,Silnik krokowy NEMA23 (X),25.9 x 6.67 x 0,047.jpg,047 - Silnik krokowy NEMA23 (X).jpg
+48,Smarowniczka płaska M6,10.39 x 9 x 9,048.jpg,048 - Smarowniczka płaska M6.jpg
+49,Smarowniczka płaska M6 (mirror),10.39 x 9 x 9,049.jpg,049 - Smarowniczka płaska M6 (mirror).jpg
+50,Czujnik indukcyjny M8 (X),15.01 x 13 x 4,050.jpg,050 - Czujnik indukcyjny M8 (X).jpg
+51,Smarowniczka płaska M6 (2)(mirror),10.39 x 9 x 9,051.jpg,051 - Smarowniczka płaska M6 (2)(mirror).jpg
+52,Silnik krokowy NEMA23 (Y2),25.9 x 6.67 x 0,052.jpg,052 - Silnik krokowy NEMA23 (Y2).jpg
+53,Mocowanie silnika HM12-57 (Y2),89 x 60 x 60,053.jpg,053 - Mocowanie silnika HM12-57 (Y2).jpg
+54,Podpora BF12 (Y2),60 x 43 x 20,054.jpg,054 - Podpora BF12 (Y2).jpg
+55,Nakrętka kulowa SFU1610 (Y2),44 x 40 x 39.85,055.jpg,055 - Nakrętka kulowa SFU1610 (Y2).jpg
+56,Sprzęgło D30L40 8-10mm (Y2),26.5 x 25.98 x 25,056.jpg,056 - Sprzęgło D30L40 8-10mm (Y2).jpg
+57,Czujnik indukcyjny M8 (Y2),15.01 x 13 x 4,057.jpg,057 - Czujnik indukcyjny M8 (Y2).jpg
+58,Sprzęgło D25L30 8-8mm (Z),21.65 x 20.28 x 18.71,058.jpg,058 - Sprzęgło D25L30 8-8mm (Z).jpg
+59,Mocowanie silnika HM10-57 (Z),89 x 60 x 58.5,059.jpg,059 - Mocowanie silnika HM10-57 (Z).jpg
+60,Silnik krokowy NEMA23 (Z),25.9 x 6.67 x 0,060.jpg,060 - Silnik krokowy NEMA23 (Z).jpg
+61,Czujnik indukcyjny M8 (Z),15.01 x 13 x 4,061.jpg,061 - Czujnik indukcyjny M8 (Z).jpg
+62,2Z płyta Z 300mm Aluminium,300 x 125 x 12,062.jpg,062 - 2Z płyta Z 300mm Aluminium.jpg
+63,Podkładka M6,2.8 x 1.5 x 0,063.jpg,063 - Podkładka M6.jpg
+64,2Z belka trammingu płyty  Aluminium,100 x 25 x 12,064.jpg,064 - 2Z belka trammingu płyty Aluminium.jpg
+65,2Z wózek HGH15CA,32.4 x 19.53 x 2.7,065.jpg,065 - 2Z wózek HGH15CA.jpg
+66,2Z kostki trammingu uchwytu wrzeciona,29.1 x 12 x 11,066.jpg,066 - 2Z kostki trammingu uchwytu wrzeciona.jpg
+67,2Z płyta trammingu  Aluminium,145 x 125 x 12,067.jpg,067 - 2Z płyta trammingu Aluminium.jpg
+68,2Z nakrętka kulowa SFU1204,35.87 x 35 x 30,068.jpg,068 - 2Z nakrętka kulowa SFU1204.jpg
+69,2Z blok nakrętki śruby kulowej,50 x 36 x 30,069.jpg,069 - 2Z blok nakrętki śruby kulowej.jpg
+70,Wrzeciono 2.2kW 80mm,259.73 x 79.9 x 54.8,070.jpg,070 - Wrzeciono 2.2kW 80mm.jpg
+73,2Z drukowany wspornik szyny 4x,120 x 15 x 9,073.jpg,073 - 2Z drukowany wspornik szyny 4x.jpg
