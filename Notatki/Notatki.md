@@ -1,3 +1,0 @@
-- VFD HUANYANG HY02D223B
-- Wrzeciono 2.2 kW średnica 80mm, EN20
-- GRBL > LinuxCNC
